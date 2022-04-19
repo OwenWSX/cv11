@@ -88,3 +88,24 @@ p2{
 p3{
   font-size: 20px;color:black
 }
+
+
+
+table, td, th
+{
+ border:2px solid Green;
+ font-weight:bolder
+}
+
+th
+{
+ background-color:lightgrey;
+ color:White;
+}
+tr:nth-child(even) {
+  background-color: lightblue;
+}
+th, td {
+  padding: 12px;
+  font-size:16px;
+}
